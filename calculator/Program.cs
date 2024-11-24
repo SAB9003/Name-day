@@ -53,7 +53,7 @@ catch (InvalidOperationException ex)
 {
     Console.WriteLine(ex.Message);
 }
-catch (Exception ex)
+catch (Exception)
 {
-    Console.WriteLine($"Unexpected error: {ex.Message}");
+    Console.WriteLine("Error");
 }
